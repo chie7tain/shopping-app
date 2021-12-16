@@ -10,3 +10,11 @@ h3 {
 .rating span {
   margin: 0.1rem;
 }
+.btn-block {
+  width: 100%;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
