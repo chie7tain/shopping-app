@@ -17,8 +17,8 @@ app.use(cookie_parser_1.default());
 app.use(helmet_1.default());
 app.use(cors_1.default());
 app.use(compression_1.default());
-app.use("/api", routes.hello);
-app.use("/api/users", routes.users);
+// app.use("/api", routes.hello);
+// app.use("/api/users", routes.users);
 app.use("/", routes.products);
 exports.default = app;
 //# sourceMappingURL=app.js.map
